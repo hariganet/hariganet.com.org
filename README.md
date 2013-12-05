@@ -1,0 +1,3 @@
+hariganet.com practice lesson in the early days
+
+for example physics paraboric ...

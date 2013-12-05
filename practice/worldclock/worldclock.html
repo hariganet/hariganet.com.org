@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>世界時計</title>
+    <link rel="stylesheet" href="worldclock.css" type="text/css" media="all">
+    <script type="text/javascript" src="worldclock.js"></script>
+  </head>
+  <body onLoad="clock()">
+    <div id="clock">
+      <select id="city">
+        <option value="-10">Honolulu (USA)
+        <option value="-8">Los Angels (USA)
+        <option value="-5">New York (USA)
+        <option value="-3">Rio de Janeiro (BRAZIL)
+        <option value="0">London (UK)
+        <option value="2">Cairo (EGYPT)
+        <option value="5.5">New Delhi (INDIA)
+        <option value="7">Bangkok (THAILAND)
+        <option value="9" selected>Tokyo (JAPAN)
+        <option value="10">Sydney (AUSTRALIA)
+      </select>
+      <span id="timezone"></span>
+      <img src="worldmap.jpg">
+      <div id="date">----/--/-- ---</div>
+      <div id="time">--:--:--</div>
+    </div>
+  </body>
+</html>
+
+
